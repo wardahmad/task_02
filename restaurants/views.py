@@ -6,4 +6,4 @@ def home(request):
 	"msg": "Hello, World!"
 
 	}
-	return render(request,"hello.html",context)
+	return render(request,'hello.html',context)
